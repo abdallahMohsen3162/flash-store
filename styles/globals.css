@@ -151,6 +151,12 @@ nav{
 
 .title-store{
   color: var(--main-color);
+  transition-duration: 0.3s;
+}
+
+.scroll-nav .title-store{
+  color: var(--alt-main-color) !important;
+  transition-duration: 0.3s;
 }
 
 .intro-land{
@@ -178,10 +184,13 @@ nav{
       font-size: 60px;
       padding: 15px 15px 30px 15px;
     }
-  .block .before{
-
-  font-size:80px;
-}
+    .block{
+      font-size: 60px !important;
+    }
+    
+    .store22{
+      font-size: 60px;
+    }
 }
 
 .card{
@@ -201,6 +210,10 @@ nav{
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+}
+
+.book-action button:hover{
+  background-color: var(--alt-main-color);
 }
 
 .book-action button{
